@@ -1,0 +1,856 @@
+﻿Log file open, 11/05/16 17:48:21
+LogInit:Display: Running engine for game: IKinemaTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(757870693) SRandInit(757870693).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.063162
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin IKinema, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/IKinema/IKinema.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.05-21.48.21:205][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2016.11.05-21.48.21:206][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.05-21.48.21:206][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.05-21.48.21:214][  0]LogInit: Computer: DESKTOP-0APL8FT
+[2016.11.05-21.48.21:214][  0]LogInit: User: ElbertHan
+[2016.11.05-21.48.21:214][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.05-21.48.21:214][  0]LogInit: High frequency timer resolution =3.421878 MHz
+[2016.11.05-21.48.21:214][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.05-21.48.21:214][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.05-21.48.21:214][  0]LogMemory: Process Physical Memory: 255.75 MB used, 255.75 MB peak
+[2016.11.05-21.48.21:214][  0]LogMemory: Process Virtual Memory: 259.80 MB used, 259.80 MB peak
+[2016.11.05-21.48.21:214][  0]LogMemory: Physical Memory: 7005.64 MB used, 16255.99 MB total
+[2016.11.05-21.48.21:214][  0]LogMemory: Virtual Memory: 622.36 MB used, 134217728.00 MB total
+[2016.11.05-21.48.21:234][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.05-21.48.21:620][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.05-21.48.21:637][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2016.11.05-21.48.21:637][  0]LogD3D11RHI:       8145/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.11.05-21.48.21:642][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.11.05-21.48.21:642][  0]LogD3D11RHI:       128/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.11.05-21.48.21:643][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.05-21.48.21:643][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.05-21.48.21:643][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.05-21.48.21:646][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.05-21.48.21:646][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.05-21.48.21:646][  0]LogWindows: EnumDisplayDevices:
+[2016.11.05-21.48.21:646][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2016.11.05-21.48.21:646][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.11.05-21.48.21:646][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.11.05-21.48.21:646][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.11.05-21.48.21:646][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.05-21.48.21:646][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.05-21.48.21:646][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.05-21.48.21:646][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.11.05-21.48.21:646][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2016.11.05-21.48.21:646][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2016.11.05-21.48.21:646][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2016.11.05-21.48.21:646][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.05-21.48.21:657][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.05-21.48.21:666][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.11.05-21.48.21:666][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Intermediate/Shaders/WorkingDirectory/10628/).
+[2016.11.05-21.48.21:666][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ELBERT~1/AppData/Local/Temp/UnrealShaderWorkingDir/DF455E6145CB872DB9D68EABD1E2302B/'.
+[2016.11.05-21.48.21:666][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.05-21.48.22:331][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.05-21.48.22:337][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.05-21.48.22:342][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.05-21.48.22:348][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.05-21.48.22:353][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.05-21.48.22:358][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.05-21.48.22:362][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.05-21.48.22:367][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.05-21.48.22:372][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.05-21.48.22:376][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.05-21.48.22:381][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.05-21.48.22:391][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.05-21.48.22:391][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.05-21.48.22:392][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.05-21.48.22:408][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.05-21.48.22:412][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.05-21.48.22:418][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.05-21.48.22:423][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.05-21.48.22:427][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.05-21.48.22:432][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.05-21.48.22:432][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.05-21.48.22:475][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.05-21.48.22:531][  0]LogDerivedDataCache: Loaded boot cache 0.06s 88MB C:/Users/Elbert Han/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.05-21.48.22:531][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Elbert Han/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.05-21.48.22:531][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.05-21.48.22:531][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.05-21.48.22:531][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.05-21.48.22:531][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.05-21.48.22:542][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.05-21.48.22:554][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Elbert Han/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.05-21.48.22:684][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.05-21.48.22:685][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.05-21.48.22:744][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.05-21.48.22:744][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.05-21.48.22:744][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.05-21.48.22:785][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.05-21.48.22:971][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: ikinematest, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1070471058
+[2016.11.05-21.48.23:002][  0]LogAssetRegistry: FAssetRegistry took 0.0209 seconds to start up
+[2016.11.05-21.48.23:029][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.024791 seconds
+[2016.11.05-21.48.23:032][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.11.05-21.48.23:032][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2016.11.05-21.48.23:032][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.05-21.48.23:036][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.05-21.48.23:158][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.05-21.48.23:158][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.05-21.48.25:320][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.05-21.48.25:336][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.05-21.48.25:501][  0]SourceControl: Info Source control is disabled
+[2016.11.05-21.48.25:502][  0]SourceControl: Info Source control is disabled
+[2016.11.05-21.48.25:507][  0]SourceControl: Info Source control is disabled
+[2016.11.05-21.48.25:513][  0]SourceControl: Info Source control is disabled
+[2016.11.05-21.48.25:685][  0]LogEngine: Initializing Engine...
+[2016.11.05-21.48.25:711][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-7CC4FACF
+[2016.11.05-21.48.25:808][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.05-21.48.25:826][  0]LogInit: XAudio2 using 'VSX-530-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.05-21.48.25:833][  0]LogInit: FAudioDevice initialized.
+[2016.11.05-21.48.25:861][  0]LogDerivedDataCache: Saved boot cache 0.03s 88MB C:/Users/Elbert Han/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.05-21.48.25:867][  0]LogInit: Texture streaming: Enabled
+[2016.11.05-21.48.25:885][  0]LogInit: Transaction tracking system initialized
+[2016.11.05-21.48.25:900][  0]BlueprintLog: New page: Editor Load
+[2016.11.05-21.48.25:954][  0]LocalizationService: Info Localization service is disabled
+[2016.11.05-21.48.26:010][  0]LogConsoleResponse:Display: 
+[2016.11.05-21.48.26:086][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.05-21.48.26:086][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.05-21.48.26:180][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/' took 0.01s
+[2016.11.05-21.48.26:180][  0]SourceControl: Info Source control is disabled
+[2016.11.05-21.48.26:180][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.05-21.48.26:181][  0]LightingResults: New page: Lighting Build
+[2016.11.05-21.48.26:182][  0]MapCheck: New page: Map Check
+[2016.11.05-21.48.26:182][  0]LightingResults: New page: Lighting Build
+[2016.11.05-21.48.26:223][  0]LogAIModule: Creating AISystem for world StartupMap
+[2016.11.05-21.48.26:227][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.05-21.48.26:227][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.05-21.48.26:251][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 24.094ms to complete.
+[2016.11.05-21.48.26:251][  0]LogFileHelpers: Loading map 'StartupMap' took 0.071
+[2016.11.05-21.48.26:365][  0]LogCollectionManager: Loaded 0 collections in 0.000948 seconds
+[2016.11.05-21.48.26:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/Collections/' took 0.01s
+[2016.11.05-21.48.26:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/Developers/ElbertHan/Collections/' took 0.01s
+[2016.11.05-21.48.26:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/Collections/' took 0.01s
+[2016.11.05-21.48.26:402][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.05-21.48.26:407][  0]LogContentBrowser: Native class hierarchy populated in 0.0055 seconds. Added 2157 classes and 424 folders.
+[2016.11.05-21.48.26:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.05-21.48.26:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.05-21.48.26:410][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.11.05-21.48.26:412][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.11.05-21.48.26:433][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.05-21.48.26:437][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.05-21.48.26:445][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.05-21.48.26:449][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.05-21.48.26:476][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.05-21.48.26:476][  0]LogLoad: (Engine Initialization) Total time: 5.82 seconds
+[2016.11.05-21.48.26:476][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2016.11.05-21.48.26:476][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.05-21.48.26:476][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.05-21.48.26:485][  0]LogOcInput: OculusInput pre-init called
+[2016.11.05-21.48.26:502][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.05-21.48.26:607][  0]LogRenderer: Reallocating scene render targets to support 1148x600 (Frame:2).
+[2016.11.05-21.48.26:641][  1]LogAssetRegistry: Asset discovery search completed in 3.6601 seconds
+[2016.11.05-21.48.26:641][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.05-21.48.26:641][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.11.05-21.48.31:117][347]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.05-21.48.31:137][347]Cmd: MAP LOAD FILE="../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.05-21.48.31:137][347]LightingResults: New page: Lighting Build
+[2016.11.05-21.48.31:137][347]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2016.11.05-21.48.31:137][347]MapCheck: New page: Map Check
+[2016.11.05-21.48.31:137][347]LightingResults: New page: Lighting Build
+[2016.11.05-21.48.31:148][347]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.05-21.48.31:162][347]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.05-21.48.31:193][347]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.476ms to complete.
+[2016.11.05-21.48.31:193][347]LogFileHelpers: Loading map 'MotionControllerMap' took 0.057
+[2016.11.05-21.49.00:676][856]LogRenderer: Reallocating scene render targets to support 1448x940 (Frame:866).
+[2016.11.05-21.49.58:637][990]LogLinker:Warning: Asset '../../../Engine/Plugins/IKinema/Content/ViveController/HMD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.11.05-21.49.58:637][990]LogLinker:Warning: Asset '../../../Engine/Plugins/IKinema/Content/ViveController/Materials/DarkGray.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.11.05-21.51.55:487][725]Cmd: TRANSACTION UNDO
+[2016.11.05-21.51.55:487][725]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-21.51.55:487][725]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-21.52.00:658][ 18]Cmd: TRANSACTION UNDO
+[2016.11.05-21.52.00:658][ 18]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-21.52.00:658][ 18]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-21.52.01:178][ 45]Cmd: TRANSACTION UNDO
+[2016.11.05-21.52.01:179][ 45]LogEditorTransaction: Undo Add new constraint
+[2016.11.05-21.52.01:307][ 46]Cmd: TRANSACTION UNDO
+[2016.11.05-21.52.01:307][ 46]LogEditorTransaction: Undo Delete Bodies
+[2016.11.05-21.52.06:527][340]Cmd: TRANSACTION REDO
+[2016.11.05-21.52.06:699][340]LogEditorTransaction: Redo Delete Bodies
+[2016.11.05-21.52.06:896][344]Cmd: TRANSACTION REDO
+[2016.11.05-21.52.06:896][344]LogEditorTransaction: Redo Add new constraint
+[2016.11.05-21.52.06:896][344]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-21.52.07:021][345]Cmd: TRANSACTION REDO
+[2016.11.05-21.52.07:021][345]LogEditorTransaction: Redo Move Motion Controller
+[2016.11.05-21.52.07:021][345]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-21.52.07:280][349]Cmd: TRANSACTION REDO
+[2016.11.05-21.52.07:280][349]LogEditorTransaction: Redo Move Motion Controller
+[2016.11.05-21.52.07:280][349]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-21.53.30:605][386]LogLinker:Warning: Asset '../../../Engine/Plugins/IKinema/Content/ViveController/L_ViveMotionController.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.11.05-21.53.30:609][386]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-21.56.38:206][681]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-21.56.41:752][103]Cmd: TRANSACTION UNDO
+[2016.11.05-21.56.41:753][103]LogEditorTransaction: Undo Add new constraint
+[2016.11.05-21.56.41:758][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-21.56.41:758][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-21.56.49:443][331]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.00.10:927][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.079
+[2016.11.05-22.00.10:928][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig] ([1] browsable assets)...
+[2016.11.05-22.00.10:928][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig]
+[2016.11.05-22.00.10:936][997]LogSavePackage: Save=7.39ms
+[2016.11.05-22.00.10:936][997]LogSavePackage: Moving '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/UE4_Mannequin_Skeleton_IKinemaRig_Auto1B331EE1844A34AA0F35EFAA02F04DDB5.tmp' to '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig_Auto1.uasset'
+[2016.11.05-22.00.10:937][997]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig_Auto1.uasset
+[2016.11.05-22.00.10:937][997]LogFileHelpers: Auto-saving content packages took 0.010
+[2016.11.05-22.02.31:572][165]Cmd: TRANSACTION UNDO
+[2016.11.05-22.02.31:572][165]LogEditorTransaction: Undo Add new constraint
+[2016.11.05-22.02.31:578][165]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.02.31:578][165]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.02.31:578][165]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.02.56:222][700]Cmd: TRANSACTION UNDO
+[2016.11.05-22.02.56:222][700]LogEditorTransaction: Undo Add new constraint
+[2016.11.05-22.02.56:227][700]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.02.56:227][700]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.02.56:227][700]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.04.42:272][865]Cmd: TRANSACTION UNDO
+[2016.11.05-22.04.42:272][865]LogEditorTransaction: Undo Add new constraint
+[2016.11.05-22.04.42:278][865]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.04.42:278][865]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.04.42:278][865]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.04.44:825][918]Cmd: TRANSACTION REDO
+[2016.11.05-22.04.44:825][918]LogEditorTransaction: Redo Add new constraint
+[2016.11.05-22.04.44:825][918]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.04.44:825][918]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.04.44:825][918]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.05.13:567][737]LogSavePackage: Save=7.51ms
+[2016.11.05-22.05.13:567][737]LogSavePackage: Moving '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/UE4_Mannequin_Skeleton_IKinemaRig32EAFB7147A76F924E873CBC6FA2CB1C.tmp' to '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.uasset'
+[2016.11.05-22.05.13:568][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.uasset
+[2016.11.05-22.05.15:268][841]LogSavePackage: Save=7.54ms
+[2016.11.05-22.05.15:268][841]LogSavePackage: Moving '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/UE4_Mannequin_Skeleton_IKinemaRig371901A8434F0195611DE7B8FC3164F7.tmp' to '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.uasset'
+[2016.11.05-22.05.15:268][841]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.uasset
+[2016.11.05-22.06.52:385][232]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2016.11.05-22.06.58:651][978]LogEditorViewport: Clicking on Actor (context menu): MotionControllerPawn_C (VRPawn)
+[2016.11.05-22.06.59:425][988]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2016.11.05-22.06.59:951][ 47]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2016.11.05-22.07.02:405][336]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2016.11.05-22.07.11:229][275]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.07.11:229][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.05-22.07.11:229][275]PIE: New page: PIE session: MotionControllerMap (Nov 5, 2016, 1:07:11 PM)
+[2016.11.05-22.07.11:229][275]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2016.11.05-22.07.11:236][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006628s)
+[2016.11.05-22.07.11:236][275]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.05-22.07.11:236][275]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2016.11.05-22.07.11:236][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.007270s)
+[2016.11.05-22.07.11:337][275]LogInit: XAudio2 using 'VSX-530-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.05-22.07.11:340][275]LogInit: FAudioDevice initialized.
+[2016.11.05-22.07.11:416][275]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.05-22.07.11:416][275]LogWorld: Game class is 'GameMode'
+[2016.11.05-22.07.11:419][275]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2016.11.05-18.07.11
+[2016.11.05-22.07.11:420][275]LogWorld: Bringing up level for play took: 0.003240
+[2016.11.05-22.07.11:422][275]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2016.11.05-22.07.11:422][275]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.05-22.07.11:422][275]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.05-22.07.11:422][275]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.05-22.07.11:424][275]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.05-22.07.11:427][275]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.537
+[2016.11.05-22.07.11:428][275]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.07.11:461][276]LogRenderer: Reallocating scene render targets to support 4236x2356 (Frame:222793).
+[2016.11.05-22.08.20:394][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.08.20:528][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.08.28:357][813]LogIKinemaCore:Warning: IKinema solver has automatically tuned P-Gain to 0.040937. Please ensure rig behaves correctly and save the IKinemaRig asset
+[2016.11.05-22.08.28:357][813]LogIKinemaCore:Warning: IKinema solver has automatically tuned P-Gain to 0.037070. Please ensure rig behaves correctly and save the IKinemaRig asset
+[2016.11.05-22.08.57:291][197]LogIKinemaCore:Warning: IKinema solver has automatically tuned P-Gain to 0.033687. Please ensure rig behaves correctly and save the IKinemaRig asset
+[2016.11.05-22.08.57:300][198]LogIKinemaCore:Warning: IKinema solver has automatically tuned P-Gain to 0.030726. Please ensure rig behaves correctly and save the IKinemaRig asset
+[2016.11.05-22.08.57:308][199]LogIKinemaCore:Warning: IKinema solver has automatically tuned P-Gain to 0.028135. Please ensure rig behaves correctly and save the IKinemaRig asset
+[2016.11.05-22.09.15:096][854]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.15:096][854]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-22.09.15:096][854]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.15:096][854]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.15:096][854]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.15:747][884]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.15:747][884]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-22.09.15:747][884]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.15:747][884]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.15:747][884]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.17:285][903]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.17:285][903]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.05-22.09.17:409][903]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.17:409][903]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.17:409][903]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.17:997][911]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.17:997][911]LogEditorTransaction: Undo Select Brush Surface
+[2016.11.05-22.09.18:002][911]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.18:002][911]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.18:002][911]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.20:795][945]Cmd: TRANSACTION REDO
+[2016.11.05-22.09.20:795][945]LogEditorTransaction: Redo Select Brush Surface
+[2016.11.05-22.09.20:918][945]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.20:918][945]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.20:918][945]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.21:342][951]Cmd: TRANSACTION REDO
+[2016.11.05-22.09.21:342][951]LogEditorTransaction: Redo Clicking on Actors
+[2016.11.05-22.09.21:346][951]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.21:346][951]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.21:346][951]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.21:790][956]Cmd: TRANSACTION REDO
+[2016.11.05-22.09.21:791][956]LogEditorTransaction: Redo Move Motion Controller
+[2016.11.05-22.09.21:791][956]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.21:791][956]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.21:791][956]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.22:197][961]Cmd: TRANSACTION REDO
+[2016.11.05-22.09.22:197][961]LogEditorTransaction: Redo Move Motion Controller
+[2016.11.05-22.09.22:197][961]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.22:197][961]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.22:197][961]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.24:312][987]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.24:312][987]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-22.09.24:312][987]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.24:312][987]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.24:312][987]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.25:042][996]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.25:042][996]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-22.09.25:042][996]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.25:042][996]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.25:042][996]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.31:800][476]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.31:800][476]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.05-22.09.31:846][476]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.31:846][476]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.31:846][476]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.32:329][497]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.32:329][497]LogEditorTransaction: Undo Select Brush Surface
+[2016.11.05-22.09.32:334][497]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.32:334][497]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.32:334][497]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.32:845][503]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.32:845][503]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.05-22.09.32:845][503]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.32:845][503]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.32:845][503]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.33:336][509]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.33:337][509]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.05-22.09.33:337][509]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.33:337][509]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.33:337][509]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.33:741][514]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.33:741][514]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2016.11.05-22.09.33:741][514]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.33:741][514]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.33:741][514]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.33:994][517]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.33:994][517]LogEditorTransaction: Undo Move Actors
+[2016.11.05-22.09.33:996][517]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.33:996][517]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.33:996][517]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:160][518]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.34:160][518]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.05-22.09.34:183][518]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:183][518]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:183][518]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:358][521]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.34:358][521]LogEditorTransaction: Undo Add new constraint
+[2016.11.05-22.09.34:358][521]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:358][521]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:358][521]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:526][522]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.34:526][522]LogEditorTransaction: Undo Add new constraint
+[2016.11.05-22.09.34:526][522]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:526][522]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:526][522]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:616][523]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.34:616][523]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-22.09.34:617][523]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:617][523]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.34:617][523]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.35:269][532]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.35:269][532]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-22.09.35:270][532]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.35:270][532]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.35:270][532]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.35:831][539]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.35:831][539]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-22.09.35:831][539]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.35:831][539]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.35:831][539]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.36:469][547]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.36:469][547]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-22.09.36:469][547]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.36:469][547]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.36:469][547]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.09.37:034][554]Cmd: TRANSACTION UNDO
+[2016.11.05-22.09.37:034][554]LogEditorTransaction: Undo Move Motion Controller
+[2016.11.05-22.09.37:034][554]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.09.37:034][554]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.09.37:034][554]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.10.04:477][267]LogIKinemaCore:Warning: IKinema solver has automatically tuned P-Gain to 0.025469. Please ensure rig behaves correctly and save the IKinemaRig asset
+[2016.11.05-22.13.39:931][762]Cmd: TRANSACTION UNDO
+[2016.11.05-22.13.39:931][762]LogEditorTransaction: Undo Add new constraint
+[2016.11.05-22.13.39:937][762]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.13.39:937][762]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.13.39:937][762]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.13.48:247][ 69]Cmd: TRANSACTION UNDO
+[2016.11.05-22.13.48:247][ 69]LogEditorTransaction: Undo Add new constraint
+[2016.11.05-22.13.48:253][ 69]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.13.48:253][ 69]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.13.48:253][ 69]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.13.54:064][255]Cmd: TRANSACTION UNDO
+[2016.11.05-22.13.54:064][255]LogEditorTransaction: Undo Add new constraint
+[2016.11.05-22.13.54:070][255]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.head_MC) Already registered. Aborting.
+[2016.11.05-22.13.54:070][255]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_r_MC) Already registered. Aborting.
+[2016.11.05-22.13.54:070][255]LogActorComponent: RegisterComponentWithWorld: (/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.hand_l_MC) Already registered. Aborting.
+[2016.11.05-22.15.11:872][574]LogSavePackage: Save=188.64ms
+[2016.11.05-22.15.11:872][574]LogSavePackage: Moving '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/UE4_Mannequin_Skeleton_IKinemaRig1B0086C44F74E58F1DC4E787074A0E16.tmp' to '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.uasset'
+[2016.11.05-22.15.11:873][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_IKinemaRig.uasset
+[2016.11.05-22.16.52:356][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.16.52:356][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.05-22.16.52:356][426]PIE: New page: PIE session: MotionControllerMap (Nov 5, 2016, 1:16:52 PM)
+[2016.11.05-22.16.52:356][426]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2016.11.05-22.16.52:364][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007025s)
+[2016.11.05-22.16.52:364][426]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.05-22.16.52:364][426]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2016.11.05-22.16.52:364][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.007724s)
+[2016.11.05-22.16.52:466][426]LogInit: XAudio2 using 'VSX-530-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.05-22.16.52:470][426]LogInit: FAudioDevice initialized.
+[2016.11.05-22.16.52:534][426]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.05-22.16.52:534][426]LogWorld: Game class is 'GameMode'
+[2016.11.05-22.16.52:538][426]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2016.11.05-18.16.52
+[2016.11.05-22.16.52:538][426]LogWorld: Bringing up level for play took: 0.003238
+[2016.11.05-22.16.52:538][426]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.05-22.16.52:538][426]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.05-22.16.52:538][426]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.05-22.16.52:540][426]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.05-22.16.52:544][426]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.58
+[2016.11.05-22.16.52:545][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.17.02:763][331]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.17.02:897][331]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.17.34:641][849]LogSavePackage: Save=244.28ms
+[2016.11.05-22.17.34:641][849]LogSavePackage: Moving '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/MotionControllerMap_Auto2F7F6CEC74ACB8DECCB980D85919D6E0E.tmp' to '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap'
+[2016.11.05-22.17.34:643][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap
+[2016.11.05-22.17.34:644][849]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.261
+[2016.11.05-22.17.34:644][849]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.261
+[2016.11.05-22.18.28:025][194]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2016.11.05-22.20.22:479][692]LogSavePackage: Save=230.74ms
+[2016.11.05-22.20.22:479][692]LogSavePackage: Moving '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/MotionControllerPawn9834E42F42437D6D584CEABC9F04759B.tmp' to '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2016.11.05-22.20.22:481][692]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2016.11.05-22.20.33:868][981]LogSavePackage: Save=45.71ms
+[2016.11.05-22.20.33:868][981]LogSavePackage: Moving '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/MotionControllerPawn0212E37E4C5F73541E8B7A969CECFF43.tmp' to '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2016.11.05-22.20.33:869][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2016.11.05-22.20.42:664][747]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.20.42:664][747]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.11.05-22.20.42:664][747]LogPlayLevel: [PlayLevel] Compiling MotionControllerPawn before play...
+[2016.11.05-22.20.43:082][747]LogPlayLevel: PlayLevel: Blueprint regeneration took 417 ms (1 blueprints)
+[2016.11.05-22.20.43:082][747]PIE: New page: PIE session: MotionControllerMap (Nov 5, 2016, 1:20:43 PM)
+[2016.11.05-22.20.43:082][747]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2016.11.05-22.20.43:088][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006169s)
+[2016.11.05-22.20.43:088][747]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.05-22.20.43:089][747]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2016.11.05-22.20.43:089][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.006782s)
+[2016.11.05-22.20.43:130][747]LogInit: XAudio2 using 'VSX-530-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.05-22.20.43:134][747]LogInit: FAudioDevice initialized.
+[2016.11.05-22.20.43:198][747]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.05-22.20.43:198][747]LogWorld: Game class is 'GameMode'
+[2016.11.05-22.20.43:202][747]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2016.11.05-18.20.43
+[2016.11.05-22.20.43:202][747]LogWorld: Bringing up level for play took: 0.003464
+[2016.11.05-22.20.43:203][747]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.05-22.20.43:203][747]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.05-22.20.43:203][747]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.05-22.20.43:204][747]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.05-22.20.43:207][747]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.243
+[2016.11.05-22.20.43:208][747]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.21.13:292][425]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.21.13:426][425]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.05-22.28.06:617][548]LogSavePackage: Save=191.00ms
+[2016.11.05-22.28.06:617][548]LogSavePackage: Moving '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/MotionControllerMap_Auto3D9E4AF54407B3063461576A5351AF46D.tmp' to '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap'
+[2016.11.05-22.28.06:618][548]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap
+[2016.11.05-22.28.06:639][548]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.231
+[2016.11.05-22.28.06:639][548]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.231
+[2016.11.05-23.40.14:450][186]LogSavePackage: Save=184.18ms
+[2016.11.05-23.40.14:450][186]LogSavePackage: Moving '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/MotionControllerMap7D64376A45ECF9BC185F8AAE0897D1B3.tmp' to '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2016.11.05-23.40.14:454][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2016.11.05-23.40.14:471][186]LogFileHelpers: Saving map 'MotionControllerMap' took 1.231
+[2016.11.05-23.40.25:694][659]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.11.05-23.40.25:950][660]Cmd: QUIT_EDITOR
+[2016.11.05-23.40.26:564][660]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.05-23.40.26:580][660]LogExit: Preparing to exit.
+[2016.11.05-23.40.27:539][660]LogDirectoryWatcher: A directory notification for 'C:/Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/' was aborted.
+[2016.11.05-23.40.27:562][660]LogExit: Editor shut down
+[2016.11.05-23.40.27:562][660]LogExit: Transaction tracking system shut down
+[2016.11.05-23.40.27:656][660]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.05-23.40.27:656][660]LogExit: Object subsystem successfully closed.
+[2016.11.05-23.40.27:674][660]LogD3D11RHI: Shutdown
+[2016.11.05-23.40.27:674][660]LogD3D11RHI: CleanupD3DDevice
+[2016.11.05-23.40.27:675][660]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.05-23.40.27:685][660]LogModuleManager: Shutting down and abandoning module BlueprintGraph (240)
+[2016.11.05-23.40.27:685][660]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (239)
+[2016.11.05-23.40.27:685][660]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (238)
+[2016.11.05-23.40.27:685][660]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (237)
+[2016.11.05-23.40.27:685][660]LogModuleManager: Shutting down and abandoning module CrashTracker (236)
+[2016.11.05-23.40.27:685][660]LogModuleManager: Shutting down and abandoning module SceneOutliner (235)
+[2016.11.05-23.40.27:685][660]LogModuleManager: Shutting down and abandoning module WidgetCarousel (234)
+[2016.11.05-23.40.27:685][660]LogModuleManager: Shutting down and abandoning module AddContentDialog (233)
+[2016.11.05-23.40.27:685][660]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.11.05-23.40.27:686][660]LogModuleManager: Shutting down and abandoning module GameplayTags (232)
+[2016.11.05-23.40.27:686][660]LogModuleManager: Shutting down and abandoning module EditorWidgets (231)
+[2016.11.05-23.40.27:686][660]LogModuleManager: Shutting down and abandoning module CollectionManager (230)
+[2016.11.05-23.40.27:686][660]LogDirectoryWatcher: A directory notification for 'C:/Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/Collections/' was aborted.
+[2016.11.05-23.40.27:687][660]LogDirectoryWatcher: A directory notification for 'C:/Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/Developers/ElbertHan/Collections/' was aborted.
+[2016.11.05-23.40.27:687][660]LogDirectoryWatcher: A directory notification for 'C:/Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Saved/Collections/' was aborted.
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module StatsViewer (229)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module FoliageEdit (228)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module LandscapeEditor (227)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (226)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module ActorPickerMode (225)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module GeometryMode (224)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module TextureAlignMode (223)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module BspMode (222)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module HardwareSurvey (221)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (220)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module SequenceRecorder (219)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module AutomationWorker (218)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (217)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module PlacementMode (216)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (215)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (214)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (213)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (212)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (211)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module Media (210)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (209)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (208)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module CharacterAI (207)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module SmartSnapping (206)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module SessionServices (205)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module ViewportSnapping (204)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module ViewportInteraction (203)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module LogVisualizer (202)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (201)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module IntroTutorials (200)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (199)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (198)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (197)
+[2016.11.05-23.40.27:687][660]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
+[2016.11.05-23.40.28:323][660]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
+[2016.11.05-23.40.28:323][660]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
+[2016.11.05-23.40.28:323][660]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
+[2016.11.05-23.40.28:323][660]LogModuleManager: Shutting down and abandoning module NiagaraEditor (192)
+[2016.11.05-23.40.28:323][660]LogModuleManager: Shutting down and abandoning module MergeActors (191)
+[2016.11.05-23.40.28:323][660]LogModuleManager: Shutting down and abandoning module SizeMap (190)
+[2016.11.05-23.40.28:323][660]LogModuleManager: Shutting down and abandoning module TreeMap (189)
+[2016.11.05-23.40.28:323][660]LogModuleManager: Shutting down and abandoning module ReferenceViewer (188)
+[2016.11.05-23.40.28:323][660]LogModuleManager: Shutting down and abandoning module LocalizationService (187)
+[2016.11.05-23.40.28:323][660]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (186)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module HardwareTargeting (185)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (184)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module UndoHistory (183)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module UserFeedback (182)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module XmlParser (181)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module Blutility (180)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (179)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (178)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module InputBindingEditor (177)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
+[2016.11.05-23.40.28:324][660]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
+[2016.11.05-23.40.28:365][660]LogModuleManager: Shutting down and abandoning module AutomationController (169)
+[2016.11.05-23.40.28:365][660]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
+[2016.11.05-23.40.28:365][660]LogModuleManager: Shutting down and abandoning module Layers (167)
+[2016.11.05-23.40.28:365][660]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
+[2016.11.05-23.40.28:365][660]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
+[2016.11.05-23.40.28:365][660]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
+[2016.11.05-23.40.28:365][660]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
+[2016.11.05-23.40.28:365][660]LogModuleManager: Shutting down and abandoning module Persona (162)
+[2016.11.05-23.40.28:365][660]LogModuleManager: Shutting down and abandoning module Kismet (161)
+[2016.11.05-23.40.28:369][660]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
+[2016.11.05-23.40.28:369][660]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module Toolbox (158)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module OutputLog (155)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module GammaUI (154)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module Documentation (153)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module Niagara (152)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module PortalServices (149)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module AIModule (144)
+[2016.11.05-23.40.28:370][660]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module SlateRemote (141)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module SteamVRController (140)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module SteamVR (139)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (138)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (137)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module OculusLibrary (136)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module OculusInput (135)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (134)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module CableComponent (133)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (132)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (130)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module HTML5Networking (129)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (128)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module GeometryCache (127)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module AlembicLibrary (126)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module AlembicImporter (125)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module SuperSearch (124)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (123)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (122)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module PluginBrowser (121)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (120)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module EpicSurvey (119)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module DesktopPlatform (118)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (117)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module UObjectPlugin (116)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (115)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (114)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module SourceControl (113)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module GitSourceControl (112)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (111)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (110)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (109)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module MeshPaint (108)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (107)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (106)
+[2016.11.05-23.40.28:448][660]LogModuleManager: Shutting down and abandoning module HotReload (105)
+[2016.11.05-23.40.28:449][660]LogModuleManager: Shutting down and abandoning module MainFrame (104)
+[2016.11.05-23.40.28:449][660]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
+[2016.11.05-23.40.28:449][660]LogModuleManager: Shutting down and abandoning module Paper2DEditor (102)
+[2016.11.05-23.40.28:449][660]LogModuleManager: Shutting down and abandoning module UdpMessaging (101)
+[2016.11.05-23.40.28:550][660]LogModuleManager: Shutting down and abandoning module TcpMessaging (100)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module IKinemaRigTool (98)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module IKinemaEditor (97)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module IKinemaCore (96)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module JsonUtils (95)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.11.05-23.40.28:650][660]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.11.05-23.40.28:651][660]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.11.05-23.40.28:651][660]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.11.05-23.40.28:652][660]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.11.05-23.40.28:652][660]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.11.05-23.40.28:652][660]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.11.05-23.40.28:652][660]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.11.05-23.40.28:652][660]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.11.05-23.40.28:652][660]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.11.05-23.40.28:652][660]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.11.05-23.40.28:652][660]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Elbert Han/Documents/Unreal Projects/IKinemaTest/Content/' was aborted.
+[2016.11.05-23.40.28:652][660]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.11.05-23.40.28:652][660]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/IKinema/Content/' was aborted.
+[2016.11.05-23.40.28:653][660]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.11.05-23.40.28:736][660]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.11.05-23.40.28:736][660]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.11.05-23.40.28:736][660]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.11.05-23.40.28:736][660]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.11.05-23.40.28:826][660]LogDerivedDataCache: Shutdown
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.11.05-23.40.28:826][660]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.11.05-23.40.28:827][660]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.05-23.40.28:827][660]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.05-23.40.28:827][660]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.11.05-23.40.28:827][660]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC5C30F59-40E7-3220-AEF6-1A8CDE3D35A7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=d243ab324176f6fb75651a8e85d83f25%7Cf6a61e3e249b4874a999f1b2c0aed57f%7Ccc73b00c-6475-42bf-b3ab-af414151f843&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.11.05-23.40.28:848][660]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.05-23.40.28:848][660]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.05-23.40.28:848][660]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.05-23.40.28:848][660]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.05-23.40.28:848][660]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.05-23.40.28:849][660]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.05-23.40.28:849][660]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.05-23.40.28:849][660]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.05-23.40.28:849][660]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.05-23.40.28:849][660]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.05-23.40.28:849][660]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.05-23.40.28:849][660]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.05-23.40.28:849][660]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.05-23.40.28:849][660]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.05-23.40.28:849][660]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.05-23.40.28:850][660]LogExit: Exiting.
+[2016.11.05-23.40.28:851][660]Log file closed, 11/05/16 19:40:28
